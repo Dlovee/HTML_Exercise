@@ -1,100 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>HTML and CSS</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Intro</title>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div id="exercise1">
-      <!-- Complete Exercise 1 HERE -->
-       <h1>Dav Love</h1>
-       <p>Bio about myself</p>
-    </div>
-
-    <div id="exercise2">
-      <!-- Complete Exercise 2 HERE -->
-       <ul>
-        <li><a href="#">LinkedIn</a></li>
-        <li><a href="#">TrueCoders</a></li>
-        <li><a href="#">YouTube</a></li>
-       </ul>
-    </div>
-
-    <div id="exercise3">
-      <!-- Complete Exercise 3 HERE -->
-       <img src="./images/example.png" alt="Avatar Placeholder" />
-    </div>
-
-    <div id="exercise4">
-      <!-- Complete Exercise 4 HERE -->
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 id="page-title">
+        HTML
+      </h1>
+      <img class="img-fluid rounded" src="./images/example.png" 
+      alt="Avatar Placeholder" />
       <p>
-        I looked down at the board. "The <strong>point</strong> isn't to win?" I asked. "The
-        <strong>point</strong>," <span>Bredon</span> said grandly, "is to <u>play</u> a <em>beautiful</em> game." He lifted
-        his hands and shrugged, his face breaking into a beautific smile. "Why
-        would I want to win anything other than a <em>beautiful</em> game?"
+        HTML stands for Hyper-Text Markup Language and is used to give semantic
+        meaning to text on a document.
       </p>
-    </div>
+      <p>Here is a look at the syntax rules:</p>
+      <ul>
+        <li class="list-item">Elements have names</li>
+        <li class="list-item">Elements typically have opening 
+          and closing tags</li>
+         <li class="list-item">An element example 
+          would be: &lt;h1>&lt;/h1</li>
+      </ul>
+      <p>HTML has tow types of elements: block and inline.</p>
+    </main>
 
-    <div id="exercise5">
-      <!-- Complete Exercise 5 HERE -->
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
-            </li>
-            <li>
-              <a href="/projects">Projects</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
-      <main>
-        <section>
-          <h1>Main Heading</h1>
-          <p>Author.. Bio...</p>
-        </section>
-        <article>
-          <section>
-            <h2>Sub Heading</h2>
-            <div>
-              <p>Lorem ipsum...</p>
-            </div>
-          </section>
-          <div>
-            <h2>Sub Heading</h2>
-            <p>Lorem ipsum...</p>
-            <div>
-              <h3>Another Sub Heading</h3>
-              <p>Lorem ipsum...</p>
-            </div>
-          </section>
-        </article>
-      </main>
-
-      <footer>
-        <nav>
-          <ul>
-            <li>
-              <a href="/privacy">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="/terms">Terms and Conditions</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div>
-          <p>Powered by 🕯️</p>
-          <p>&copy; TrueCoders 2021-24</p>
-        </div>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Policy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </nav>
+      <div>
       </div>
     </footer>
   </body>
-</html>
+</html>  
